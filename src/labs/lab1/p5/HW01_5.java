@@ -3,7 +3,7 @@ package labs.lab1.p5;
 import java.io.*;
 
 /**
- * Task 5 Problem 5 (0 / 0)
+ * Task 5 Problem 5
  * One e-learning system generates grade reports in a CSV (Comma Separated Values) format.
  * Write a Java program which will print out the average grade of each student from the file results.csv (see the example below),
  * and the average grade of each course (given in the first line of the file). The program should work with any number of lines in an input CSV file.

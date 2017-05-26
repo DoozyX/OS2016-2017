@@ -21,7 +21,6 @@ import java.nio.file.StandardOpenOption;
 
 public class HW01_2 {
 	static void writeToFile(byte[] buffer, Path out) throws IOException{
-		int n = buffer.length;
 		byte[] output = new byte[100];
 		for (int i = 99; i >= 0; i--) {
 			if (buffer[i] == 0 || (char)buffer[i] == '\n') {

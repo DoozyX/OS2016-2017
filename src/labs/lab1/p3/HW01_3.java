@@ -29,7 +29,7 @@ public class HW01_3 {
 			br = new BufferedReader(new FileReader("source.txt"));
 			bw = new BufferedWriter(new FileWriter("destination.txt"));
 
-			String line = null;
+			String line;
 
 			while ((line = br.readLine()) != null) {
 				writeToFile(line, bw);
